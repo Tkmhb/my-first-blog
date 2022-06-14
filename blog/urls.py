@@ -1,7 +1,6 @@
-from importlib.resources import path
-from django.urls improt path
+from django.urls import path
 from . import views
 
-urlpatterns = {
+urlpatterns = [
     path('', views.post_list, name='post_list'),
-}
+]
